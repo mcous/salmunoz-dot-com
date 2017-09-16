@@ -20,7 +20,17 @@
     "url": "https://github.com/mcous/salmunoz-dot-com/issues"
   },
   "homepage": "https://github.com/mcous/salmunoz-dot-com#readme",
+  "standard": {
+    "ignore": [
+      "dist/"
+    ],
+    "env": [
+      "browser",
+      "jest"
+    ]
+  },
   "devDependencies": {
+    "babel-jest": "^21.0.2",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -30,8 +40,10 @@
     "babel-preset-react-optimize": "^1.0.1",
     "classnames": "^2.2.5",
     "cross-env": "^5.0.5",
+    "enzyme": "^2.9.1",
     "jest": "^21.1.0",
     "prop-types": "^15.5.10",
+    "react-test-renderer": "^15.6.1",
     "standard": "^10.0.3",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.8.2"

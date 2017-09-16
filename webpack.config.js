@@ -16,7 +16,7 @@ const OUTPUT_DIR = path.join(__dirname, 'dist')
 const CONTENT_DIR = path.join(__dirname, 'public')
 
 const DEV = process.env.NODE_ENV !== 'production'
-const DEV_PORT = 9966
+const DEV_PORT = 8080
 
 const config = module.exports = {
   entry: [
