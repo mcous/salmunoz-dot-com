@@ -1,0 +1,37 @@
+{
+  "env": {
+    "production": {
+      "presets": [
+        "react-optimize",
+        "minify"
+      ]
+    },
+    "dev": {
+      "plugins": [
+        "react-hot-loader/babel"
+      ]
+    },
+    "test": {
+      "plugins": [
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  },
+  "plugins": [
+    "transform-object-rest-spread"
+  ],
+  "presets": [
+    "react",
+    [
+      "env", {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "safari >= 7"
+          ]
+        },
+        "modules": false
+      }
+    ]
+  ]
+}

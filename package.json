@@ -1,0 +1,44 @@
+{
+  "name": "salmunoz-dot-com",
+  "version": "0.0.0",
+  "description": "Artist Sal Muñoz's portfolio site",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "posttest": "npm run lint",
+    "lint": "standard",
+    "start": "cross-env NODE_ENV=dev webpack-dev-server --hot",
+    "dist": "cross-env NODE_ENV=production webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcous/salmunoz-dot-com.git"
+  },
+  "author": "Mike Cousins <mike@cousins.io> (http://mike.cousins.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcous/salmunoz-dot-com/issues"
+  },
+  "homepage": "https://github.com/mcous/salmunoz-dot-com#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-minify": "^0.2.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-optimize": "^1.0.1",
+    "classnames": "^2.2.5",
+    "cross-env": "^5.0.5",
+    "jest": "^21.1.0",
+    "prop-types": "^15.5.10",
+    "standard": "^10.0.3",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.7"
+  }
+}
