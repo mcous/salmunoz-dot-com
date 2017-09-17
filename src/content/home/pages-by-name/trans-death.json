@@ -1,0 +1,57 @@
+{
+  "name": "trans-death",
+  "title": "Trans*Death Posters",
+  "stats": [
+    "2012"
+  ],
+  "thumbnail": "/images/trans-death/collection-tn.png",
+  "description": [
+    "<strong>Trans*Death Posters</strong> is an installation from 2012. The posters are intended to commemorate the deaths of trans* identified individuals who were murdered because of their gender identity or presentation. Each individual poster depicts the name of the individual repeatedly layered to create a background pattern, while their name and the circumstances of their death are clearly legible in the foreground. When properly arranged, the posters align to form the transgender symbol. This project is intended not only to commemorate the loss of specific individuals, but to also address the lack of attention these incidents receive in mainstream media and the importance of increasing Trans* visibility, acceptance, and protections."
+  ],
+  "gallery": [
+    {
+      "name": "collection",
+      "src": "/images/trans-death/collection.png"
+    },
+    {
+      "name": "chanelle-picket",
+      "src": "/images/trans-death/chanelle-picket.png"
+    },
+    {
+      "name": "emonie-spaulding",
+      "src": "/images/trans-death/emonie-spaulding.png"
+    },
+    {
+      "name": "fred-martinez",
+      "src": "/images/trans-death/fred-martinez.png"
+    },
+    {
+      "name": "brandon-teena",
+      "src": "/images/trans-death/brandon-teena.png"
+    },
+    {
+      "name": "venus-extravaganza",
+      "src": "/images/trans-death/venus-extravaganza.png"
+    },
+    {
+      "name": "nirea-johnson",
+      "src": "/images/trans-death/nirea-johnson.png"
+    },
+    {
+      "name": "gwen-araujo",
+      "src": "/images/trans-death/gwen-araujo.png"
+    },
+    {
+      "name": "rita-hester",
+      "src": "/images/trans-death/rita-hester.png"
+    },
+    {
+      "name": "ruby-ordenana",
+      "src": "/images/trans-death/ruby-ordenana.png"
+    },
+    {
+      "name": "bella-evangalista",
+      "src": "/images/trans-death/bella-evangalista.png"
+    }
+  ]
+}

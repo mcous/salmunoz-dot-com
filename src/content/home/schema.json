@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "required": [
+    "name",
+    "title",
+    "stats",
+    "thumbnail",
+    "description",
+    "gallery"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "stats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "description": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gallery": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "src"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "src": {
+            "type": "string"
+          },
+          "caption": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

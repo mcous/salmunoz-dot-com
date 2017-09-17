@@ -1,0 +1,41 @@
+{
+  "name": "am-am-not",
+  "title": "The Am/AmNot Project",
+  "stats": [
+    "2012 - ongoing"
+  ],
+  "thumbnail": "/images/am-am-not/wall-tn.jpg",
+  "description": [
+    "<strong>The Am/Am Not Project</strong> is an ongoing participatory installation, which began in 2012. Participants anonymously submit three words that describe who they are, and one negative word that does not describe them (a slur). These submissions are then taken and arranged into color-coded text based posters, and compiled into an installation. This project is intended to visually represent how slurs are used to wholly undermine an individual’s identity and reduce them to a singular, seemingly negative aspect, effectively othering them."
+  ],
+  "gallery": [
+    {
+      "name": "wall",
+      "src": "/images/am-am-not/wall.jpg"
+    },
+    {
+      "name": "closeup",
+      "src": "/images/am-am-not/closeup.jpg"
+    },
+    {
+      "name": "angle",
+      "src": "/images/am-am-not/angle.jpg"
+    },
+    {
+      "name": "poster-1",
+      "src": "/images/am-am-not/poster-1.png"
+    },
+    {
+      "name": "poster-2",
+      "src": "/images/am-am-not/poster-2.png"
+    },
+    {
+      "name": "poster-3",
+      "src": "/images/am-am-not/poster-3.png"
+    },
+    {
+      "name": "poster-4",
+      "src": "/images/am-am-not/poster-4.png"
+    }
+  ]
+}

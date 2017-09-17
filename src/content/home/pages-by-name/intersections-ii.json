@@ -1,0 +1,37 @@
+{
+  "name": "intersections-ii",
+  "title": "Intersections II",
+  "stats": [
+    "2013"
+  ],
+  "thumbnail": "/images/intersections-ii/pyramid-1-tn.jpg",
+  "description": [
+    "<strong>Intersections II</strong> is a sculptural installation from 2013. Brightly colored plaster skulls are arranged in a pyramid formation. The bright colors and decorative adornments reference <em>calaveras</em>, brightly colored Mexican sugar skulls made during <em>Dia de los Muertos</em> to honor the deceased. The arrangement of the skulls in a rainbow color scheme connotes queer culture. The pyramid structure of the installation serves to honor folks who's lived reality is represented by this installation, but the triangular formation can also allude to the pink triangle, used to persecute gays in nazi era Germany. The title alludes to the concept of intersectionality, where an individual belongs to multiple marginalized groups, and how these multiple identities interact in various concurrent systems of oppression. This piece also serves to point out how queer people of color are often rendered invisible and ignored by mainstream gay culture."
+  ],
+  "gallery": [
+    {
+      "name": "pyramid-1",
+      "src": "/images/intersections-ii/pyramid-1.jpg"
+    },
+    {
+      "name": "pyramid-2",
+      "src": "/images/intersections-ii/pyramid-2.jpg"
+    },
+    {
+      "name": "closeup-front",
+      "src": "/images/intersections-ii/closeup-front.jpg"
+    },
+    {
+      "name": "pyramid-3",
+      "src": "/images/intersections-ii/pyramid-3.jpg"
+    },
+    {
+      "name": "pyramid-4",
+      "src": "/images/intersections-ii/pyramid-4.jpg"
+    },
+    {
+      "name": "closeup-back",
+      "src": "/images/intersections-ii/closeup-back.jpg"
+    }
+  ]
+}

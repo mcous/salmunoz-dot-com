@@ -1,0 +1,33 @@
+{
+  "name": "suspicious",
+  "title": "Suspicious",
+  "stats": [
+    "2012"
+  ],
+  "thumbnail": "/images/suspicious/suspicious-tn.jpg",
+  "description": [
+    "<strong>Suspicious</strong> is an interactive installation inspired by the events surrounding the death of Trayvon Martin in the spring of 2012. Three photographs are displayed showing the items Trayvon had on him at the time of the incident; a can of Arizona Iced Tea, a bag of Skittles candy, and a black hooded sweatshirt. Each object has a sticker placed on it with text that reads “SURGEON GENERAL’S WARNING: Consuming (wearing) this product in public may cause you to look suspicious, and may give concerned citizens the right to murder you.” Multiples of similar stickers are placed on a pedestal in front of the photographs, which viewers are encouraged to take and place where they see fit. This piece humorously calls into question how these simple items can cause someone to look suspicious, while extending the piece both beyond the gallery context and the photographic medium. The timing of this piece was crucial in the success of it, as it was produced and exhibited while the incident was still making national headlines."
+  ],
+  "gallery": [
+    {
+      "name": "suspicious",
+      "src": "/images/suspicious/suspicious.jpg"
+    },
+    {
+      "name": "arizona",
+      "src": "/images/suspicious/arizona.jpg"
+    },
+    {
+      "name": "skittles",
+      "src": "/images/suspicious/skittles.jpg"
+    },
+    {
+      "name": "hoodie",
+      "src": "/images/suspicious/hoodie.jpg"
+    },
+    {
+      "name": "hoodie-sticker",
+      "src": "/images/suspicious/hoodie-sticker.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "gbff",
+  "title": "G.B.F.F.",
+  "stats": [
+    "2013"
+  ],
+  "thumbnail": "/images/gbff/purses-1-tn.jpg",
+  "description": [
+    "<strong>G.B.F.F.</strong> is a series of artist’s multiples from 2013, made from found objects. The off-brand purses’ interior lining has been replaced with gay pornography. The purses serve as a direct reference to the commodification, fetishization, and desexualization of gay men by straight women. Purses, being a stereotypically feminine object, juxtaposed with the gay pornography inside, call to mind the straight woman/gay man relationship. The cheap, “knock-off” style of the purses reflects the shallow nature of a fetishized relationship. The gay pornography that lines the interior provides both a reference to gay men and calls to question the desexualization of gay men by straight women in these fetishized relationships. The title, G.B.F.F. stands for “Gay Best Friend Forever”, a common phrase used by straight women in describing their relationship with a gay man whom they fetishize. The 'gay' modifier serves to distinguish the relationship from any other friendship, which simultaneously commodifies and otherizes the gay male."
+  ],
+  "gallery": [
+    {
+      "name": "purses-1",
+      "src": "/images/gbff/purses-1.jpg"
+    },
+    {
+      "name": "purses-2",
+      "src": "/images/gbff/purses-2.jpg"
+    },
+    {
+      "name": "purses-3",
+      "src": "/images/gbff/purses-3.jpg"
+    },
+    {
+      "name": "purse",
+      "src": "/images/gbff/purse.jpg"
+    },
+    {
+      "name": "inside",
+      "src": "/images/gbff/inside.jpg"
+    }
+  ]
+}

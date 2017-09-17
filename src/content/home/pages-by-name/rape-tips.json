@@ -1,0 +1,57 @@
+{
+  "name": "rape-tips",
+  "title": "Rape Tips",
+  "stats": [
+    "2012"
+  ],
+  "thumbnail": "/images/rape-tips/rape-tips-tn.jpg",
+  "description": [
+    "<strong>Rape Tips</strong> is a public poster campaign from 2012. Various brightly colored posters with tips on how potential rapists could avoid committing rape were placed in the town of Isla Vista, a small college town with a rampant rape culture. The tips are derived from common tips women receive on protecting themselves from rape, and inverted to place the blame on the shoulders of the rapist, where it rightfully belongs. These posters are intended to address the problematic nature in which rape is often discussed in our society, where the responsibility is placed on the victim to prevent their own rape."
+  ],
+  "gallery": [
+    {
+      "name": "number-one",
+      "src": "/images/rape-tips/number-one.png"
+    },
+    {
+      "name": "number-two",
+      "src": "/images/rape-tips/number-two.png"
+    },
+    {
+      "name": "number-three",
+      "src": "/images/rape-tips/number-three.png"
+    },
+    {
+      "name": "number-four",
+      "src": "/images/rape-tips/number-four.png"
+    },
+    {
+      "name": "number-five",
+      "src": "/images/rape-tips/number-five.png"
+    },
+    {
+      "name": "rape-tips",
+      "src": "/images/rape-tips/rape-tips.jpg"
+    },
+    {
+      "name": "number-one-posted",
+      "src": "/images/rape-tips/number-one-posted.jpg"
+    },
+    {
+      "name": "number-two-posted",
+      "src": "/images/rape-tips/number-two-posted.jpg"
+    },
+    {
+      "name": "number-three-posted",
+      "src": "/images/rape-tips/number-three-posted.jpg"
+    },
+    {
+      "name": "number-four-posted",
+      "src": "/images/rape-tips/number-four-posted.jpg"
+    },
+    {
+      "name": "number-five-posted",
+      "src": "/images/rape-tips/number-five-posted.jpg"
+    }
+  ]
+}

@@ -23,16 +23,19 @@ describe('BigNav component', () => {
 
   test('links have normal title on lg screens', () => {
     const nav = mount(<BigNav {...props} />)
+    const links = nav.find('a')
 
-    nav.find('a').forEach((link, index) => {
+    expect(links.length).toBe(3)
+    links.forEach((link, index) => {
       expect(link.find('.dn.di-l').text()).toEqual(props.pages[index].title)
     })
   })
 
   test('links have shortTitle (title if missing( on sm/md screens', () => {
     const nav = mount(<BigNav {...props} />)
+    const links = nav.find('a')
 
-    nav.find('a').forEach((link, index) => {
+    links.forEach((link, index) => {
       const linkProps = props.pages[index]
       const shortTitle = linkProps.shortTitle || linkProps.title
 

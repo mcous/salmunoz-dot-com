@@ -1,0 +1,41 @@
+{
+  "name": "pull-yourself-up",
+  "title": "Pull Yourself Up",
+  "stats": [
+    "2013"
+  ],
+  "thumbnail": "/images/pull-yourself-up/bootstraps-1-tn.jpg",
+  "description": [
+    "<strong>Pull Yourself Up</strong> is an interactive installation from 2013. Two gold-painted boots are mounted on a wall. A black bar is mounted between the two boots, attached at the bootstraps, imitating a pull-up bar. Viewers are invited to do a pull-up on the bar; however, the bar is attached to the boots via a magnet and is incapable of holding up the weight of a human. When a participant attempts to do a pull-up, the bar separates itself from the boots. This installation serves as a metaphor for the fallacy of the “pull yourself up by the bootstraps” rhetoric so prevalent in American society. We are repeatedly told in our society that if you work hard enough and persevere, upward mobility is yours for the taking. However, this rhetoric fails to acknowledge the very real barriers that various –isms create in achieving upward mobility, and only serves to perpetuate the false idea that poor people remain poor through their own laziness."
+  ],
+  "gallery": [
+    {
+      "name": "bootstraps-1",
+      "src": "/images/pull-yourself-up/bootstraps-1.jpg"
+    },
+    {
+      "name": "bootstraps-2",
+      "src": "/images/pull-yourself-up/bootstraps-2.jpg"
+    },
+    {
+      "name": "bootstraps-3",
+      "src": "/images/pull-yourself-up/bootstraps-3.jpg"
+    },
+    {
+      "name": "pullup-1",
+      "src": "/images/pull-yourself-up/pullup-1.jpg"
+    },
+    {
+      "name": "pullup-2",
+      "src": "/images/pull-yourself-up/pullup-2.jpg"
+    },
+    {
+      "name": "angle-1",
+      "src": "/images/pull-yourself-up/angle-1.jpg"
+    },
+    {
+      "name": "angle-2",
+      "src": "/images/pull-yourself-up/angle-2.jpg"
+    }
+  ]
+}

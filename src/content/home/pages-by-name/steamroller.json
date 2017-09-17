@@ -1,0 +1,61 @@
+{
+  "name": "steamroller",
+  "title": "Building Coalitions Through Cross-Cultural Communication (Steamroller Print)",
+  "stats": [
+    "2013"
+  ],
+  "thumbnail": "/images/steamroller/installation-detail-tn.jpg",
+  "description": [
+    "<strong>Building Coalitions Through Cross-Cultural Communication</strong> is a large scale print made using a steamroller in 2012. The print depicts several balls of yarn locked in chains, each with a lock labeling an –ism. The yarn is being weaved into a large quilt by hands that are reaching from the sky. The strands being woven into the quilt have text written on them that correspond to a historically significant victory against the oppressive –isms. The idea behind the content of this mural-like print is to visually represent how liberation from oppression has to be fought for all people at once, not just for some. The print itself measures 25 feet long and 5 feet tall, the largest print ever created on a University of California campus. The print was the product of the combined effort and hard work of several dedicated University of California, Santa Barbara students including Martin Castro, Jonathan Chao, Melissa Chhan, Jessica Chan, Shauna Moses, Angie Shen, and lead by Salvador Muñoz. The project was funded by the University of California Institute for Research in the Arts."
+  ],
+  "gallery": [
+    {
+      "name": "entire-print",
+      "src": "/images/steamroller/entire-print.jpg"
+    },
+    {
+      "name": "installation",
+      "src": "/images/steamroller/installation.jpg"
+    },
+    {
+      "name": "installation-detail",
+      "src": "/images/steamroller/installation-detail.jpg"
+    },
+    {
+      "name": "sexism",
+      "src": "/images/steamroller/sexism.jpg"
+    },
+    {
+      "name": "ableism",
+      "src": "/images/steamroller/ableism.jpg"
+    },
+    {
+      "name": "strand",
+      "src": "/images/steamroller/strand.jpg"
+    },
+    {
+      "name": "steamroller-1",
+      "src": "/images/steamroller/steamroller-1.jpg"
+    },
+    {
+      "name": "steamroller-2",
+      "src": "/images/steamroller/steamroller-2.jpg"
+    },
+    {
+      "name": "steamroller-3",
+      "src": "/images/steamroller/steamroller-3.jpg"
+    },
+    {
+      "name": "work-1",
+      "src": "/images/steamroller/work-1.jpg"
+    },
+    {
+      "name": "work-2",
+      "src": "/images/steamroller/work-2.jpg"
+    },
+    {
+      "name": "work-3",
+      "src": "/images/steamroller/work-3.jpg"
+    }
+  ]
+}

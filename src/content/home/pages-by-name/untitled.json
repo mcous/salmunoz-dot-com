@@ -1,0 +1,33 @@
+{
+  "name": "untitled",
+  "title": "Untitled",
+  "stats": [
+    "2012"
+  ],
+  "thumbnail": "/images/untitled/untitled-1-tn.jpg",
+  "description": [
+    "<strong>Untitled</strong> is an installation from 2012, made from coarse rope and spray paint. 70 brightly colored nooses are arranged in the center of a room to mimic the look of a rainbow flag. The nooses hang high enough to not disrupt the flow of the gallery, but loom ominously above the viewers. The bright, vivid colors of the nooses juxtaposed with the inherent symbology of a noose arouses an uncomfortable, unsettling feeling in viewers. This piece calls attention to the extremely high rates of LGBT suicides, particularly among LGBT youth, while simultaneously calling into question the forces that drive these people to suicide."
+  ],
+  "gallery": [
+    {
+      "name": "untitled-1",
+      "src": "/images/untitled/untitled-1.jpg"
+    },
+    {
+      "name": "untitled-2",
+      "src": "/images/untitled/untitled-2.jpg"
+    },
+    {
+      "name": "untitled-3",
+      "src": "/images/untitled/untitled-3.jpg"
+    },
+    {
+      "name": "untitled-4",
+      "src": "/images/untitled/untitled-4.jpg"
+    },
+    {
+      "name": "untitled-5",
+      "src": "/images/untitled/untitled-5.jpg"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "name": "femme",
+  "title": "FEMME",
+  "stats": [
+    "2015 - ongoing",
+    "archival inkjet print",
+    "54″ x 36″"
+  ],
+  "thumbnail": "/images/femme/shayna-tn.jpg",
+  "description": [
+    "<strong>FEMME</strong> is an ongoing photography project, which began in January 2015. Through a series of photographs and interviews, this project hopes to challenge and reconfigure the commonly accepted definition of Femme. In queer culture, Femmes are defined only by their proximity to something, be it masculine of center folks, cisnormative perceptions of gender, or eurocentric standards of beauty. Stated simply, Femmes are typically recognized only when they are conventionally pretty, white, cisgender women whose femininity is seen in stark contrast to normative perceptions of queer women, namely butches, bois, and other masculine of center women. This definition is very limiting, erasing a large number of Femme folks, including Femmes of color and Trans* and gender nonconforming Femmes, and fails to recognize the agency of Femmes to self identify.",
+
+    "Femmes come in all different shapes and sizes, in a variety shades and colors, and in a wide range of genders. The performance and embodiment of Femme looks different for each person—there is no ‘correct way’ to be Femme. The current parameters of Femme are very limiting and do not allow for these variations. Those who don’t meet the stringent requirements of the cultural definition of Femme are effectively erased from the narrative and rendered invisible.",
+
+    "Through photographs and interviews with queer people of color who self-identify as Femme, the Femme project challenges this narrow, limiting definition in favor of a more pluralistic understanding of the identity. The visual representations of Femmes through photography showcase the diversity and variety of Femme identified folks, while the accompanying interviews contextualize the participants’ personal definition of Femme. Since launching, the project has featured ten participants, with many more Femmes across the country excited and eager to participate.",
+
+    "Most importantly, this project creates a space for Femmes to publicly declare what Femme means to them in their own words. Too often, Femmes are only seen as a reaction to Masculine of Center folks, or in hetero/cisnormative understandings of gender and relationships. Femme becomes a label that is imposed on people, rather than an identity that individuals claim out of their own agency. By allowing Femmes, especially those who are already excluded from the standard definition, a public platform to define Femme on their own terms, this project empowers Femmes of color to have agency over their own identity.",
+
+    "This project is ongoing and hopes to capture as many Femme identified folks as possible. <strong>If you are interested in participating</strong> or would like more information about the project, please contact the artist at <a href='mailto:sal@salmunoz.com' class='link blue dim'>sal@salmunoz.com</a>."
+  ],
+  "gallery": [
+    {
+      "name": "julian",
+      "src": "/images/femme/julian.jpg"
+    },
+    {
+      "name": "julian-quote",
+      "src": "/images/femme/julian-quote.png"
+    },
+    {
+      "name": "venus",
+      "src": "/images/femme/venus.jpg"
+    },
+    {
+      "name": "venus-quote",
+      "src": "/images/femme/venus-quote.png"
+    },
+    {
+      "name": "sharmin",
+      "src": "/images/femme/sharmin.jpg"
+    },
+    {
+      "name": "sharmin-quote",
+      "src": "/images/femme/sharmin-quote.png"
+    },
+    {
+      "name": "shayna",
+      "src": "/images/femme/shayna.jpg"
+    },
+    {
+      "name": "shayna-quote",
+      "src": "/images/femme/shayna-quote.png"
+    },
+    {
+      "name": "alok",
+      "src": "/images/femme/alok.jpg"
+    },
+    {
+      "name": "alok-quote",
+      "src": "/images/femme/alok-quote.png"
+    },
+    {
+      "name": "ivette",
+      "src": "/images/femme/ivette.jpg"
+    },
+    {
+      "name": "ivette-quote",
+      "src": "/images/femme/ivette-quote.png"
+    },
+    {
+      "name": "jamal",
+      "src": "/images/femme/jamal.jpg"
+    },
+    {
+      "name": "jamal-quote",
+      "src": "/images/femme/jamal-quote.png"
+    },
+    {
+      "name": "isake",
+      "src": "/images/femme/isake.jpg"
+    },
+    {
+      "name": "isake-quote",
+      "src": "/images/femme/isake-quote.png"
+    },
+    {
+      "name": "raychelle",
+      "src": "/images/femme/raychelle.jpg"
+    },
+    {
+      "name": "raychelle-quote",
+      "src": "/images/femme/raychelle-quote.png"
+    },
+    {
+      "name": "shawn",
+      "src": "/images/femme/shawn.jpg"
+    },
+    {
+      "name": "shawn-quote",
+      "src": "/images/femme/shawn-quote.png"
+    },
+    {
+      "name": "femme-selection",
+      "src": "/images/femme/femme-selection.jpg"
+    },
+    {
+      "name": "femme-selection-angle",
+      "src": "/images/femme/femme-selection-angle.jpg"
+    },
+    {
+      "name": "jamal-focus",
+      "src": "/images/femme/jamal-focus.jpg"
+    },
+    {
+      "name": "ivette-focus",
+      "src": "/images/femme/ivette-focus.jpg"
+    },
+    {
+      "name": "shayna-focus",
+      "src": "/images/femme/shayna-focus.jpg"
+    },
+    {
+      "name": "alok-focus",
+      "src": "/images/femme/alok-focus.jpg"
+    }
+  ]
+}
