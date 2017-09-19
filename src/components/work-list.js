@@ -1,6 +1,7 @@
 // work list component
 import React from 'react'
 import PropTypes from 'prop-types'
+import {Link} from 'react-router-dom'
 
 import Thumbnail from './thumbnail'
 
@@ -26,9 +27,9 @@ function WorkItem (props) {
 
   return (
     <li className={LIST_ITEM_STYLE} key={name}>
-      <a href='#'>
+      <Link to={`/work/${name}`}>
         <Thumbnail src={thumbnail} text={title} />
-      </a>
+      </Link>
     </li>
   )
 }
