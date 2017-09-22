@@ -1,10 +1,13 @@
 // modal component
 import React from 'react'
+import PropTypes from 'prop-types'
 import createReactClass from 'create-react-class'
+import {Link} from 'react-router-dom'
 
-const STYLE = 'fixed z-999 absolute--fill pa3 pa4-ns bg-black-50'
+const STYLE = 'fixed z-999 absolute--fill pa3 pa4-ns'
+const BG_STYLE = 'db link absolute absolute--fill z-back bg-black-50'
 
-export default createReactClass({
+const Modal = createReactClass({
   componentWillMount () {
     document.body.classList.add('overflow-hidden')
   },
@@ -14,10 +17,19 @@ export default createReactClass({
   },
 
   render () {
+    const {back} = this.props
+
     return (
       <div className={STYLE}>
+        <Link to={back} className={BG_STYLE} />
         {this.props.children}
       </div>
     )
   }
 })
+
+Modal.propTypes = {
+  back: PropTypes.string.isRequired
+}
+
+export default Modal

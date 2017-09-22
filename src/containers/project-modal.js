@@ -2,11 +2,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import Gallery from './gallery'
 import Modal from '../components/modal'
 
-export default function ProjectModal () {
+const IMAGES = [
+  {src: '/images/femme/alok.jpg', isCurrent: true}
+]
+
+export default function ProjectModal (props) {
   return (
-    <Modal />
+    <Modal back='/'>
+      <Gallery images={IMAGES} />
+    </Modal>
   )
 }
 

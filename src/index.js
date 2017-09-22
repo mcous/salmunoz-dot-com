@@ -3,6 +3,7 @@ import React from 'react'
 import {render} from 'react-dom'
 import {AppContainer} from 'react-hot-loader'
 
+import './index.css'
 import Root from './containers/root'
 
 const renderRoot = () => render(
