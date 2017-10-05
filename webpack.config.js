@@ -18,6 +18,7 @@ const OUTPUT_DIR = path.join(__dirname, 'dist')
 const CONTENT_DIR = path.join(__dirname, 'public')
 
 const DEV = process.env.NODE_ENV !== 'production'
+const DEV_HOST = '0.0.0.0'
 const DEV_PORT = 8080
 
 const config = module.exports = {
@@ -55,6 +56,7 @@ const config = module.exports = {
   devtool: 'source-map',
 
   devServer: {
+    host: DEV_HOST,
     port: DEV_PORT,
     contentBase: CONTENT_DIR,
     compress: true,

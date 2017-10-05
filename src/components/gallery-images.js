@@ -5,8 +5,8 @@ import classNames from 'classnames'
 
 import Image from './image'
 
-const STYLE = 'list absolute absolute--center pl0 mv0 tc pe-none '
-const ITEM_STYLE_BASE = ''
+const STYLE = 'list w-100 h-100 pl0 mv0 tc pe-none '
+const ITEM_STYLE_BASE = 'w-100 h-100'
 
 export default function GalleryImages (props) {
   const {images} = props

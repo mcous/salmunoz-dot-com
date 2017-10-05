@@ -7,3 +7,8 @@
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+.mxh-100 { max-height: 100%; }
+
+.obj-contain { object-fit: contain; }
+.obj-center { object-position: 50% 50%; }

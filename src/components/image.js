@@ -3,6 +3,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import createReactClass from 'create-react-class'
 
+const STYLE = 'mxh-100 w-100 h-100 obj-contain'
+
 const isLoadedBySrc = {}
 
 export default createReactClass({
@@ -16,12 +18,12 @@ export default createReactClass({
 
     if (isLoaded || isCurrent) {
       return (
-        <img src={src} />
+        <img src={src} className={STYLE} />
       )
     }
 
     return (
-      <div />
+      <div className={STYLE} />
     )
   }
 })
