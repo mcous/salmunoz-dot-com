@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import createReactClass from 'create-react-class'
 import {Link} from 'react-router-dom'
 
-const STYLE = 'fixed z-999 absolute--fill pa3 pa4-ns'
+const STYLE = 'fixed z-999 absolute--fill pa3 pa4-l'
 const BG_STYLE = 'db link absolute absolute--fill z-back bg-black-50'
 
 const Modal = createReactClass({

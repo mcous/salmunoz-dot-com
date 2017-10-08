@@ -2,13 +2,34 @@
 
 .z-back { z-index: -1; }
 
-.absolute--center {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
 .mxh-100 { max-height: 100%; }
 
 .obj-contain { object-fit: contain; }
 .obj-center { object-position: 50% 50%; }
+
+.v-ttop { vertical-align: text-top; }
+
+.fcc { fill: currentColor; }
+
+.bg-grad-bottom-bar {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 20%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+}
+
+.gallery-item {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: opacity 256ms, transform 256ms;
+}
+
+.gallery-item.shift-left {
+  transform: translate(-150%,-50%);
+}
+
+.gallery-item.shift-right {
+  transform: translate(50%,-50%);
+}

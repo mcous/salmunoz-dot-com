@@ -30,7 +30,7 @@ export default function Home (props) {
       <BigNav pages={PAGES} />
       <WorkList projects={PROJECTS} />
 
-      <Route path='/work/:page' component={ProjectModal} />
+      <Route path='/work/:page/:image?' component={ProjectModal} />
     </Main>
   )
 }
