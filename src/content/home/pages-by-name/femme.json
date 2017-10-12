@@ -25,7 +25,9 @@
     },
     {
       "name": "julian-quote",
-      "src": "/images/femme/julian-quote.png"
+      "src": "/images/femme/julian-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/julian-interview-excerpt.pdf"
     },
     {
       "name": "venus",
@@ -33,7 +35,9 @@
     },
     {
       "name": "venus-quote",
-      "src": "/images/femme/venus-quote.png"
+      "src": "/images/femme/venus-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/venus-interview-excerpt.pdf"
     },
     {
       "name": "sharmin",
@@ -41,7 +45,9 @@
     },
     {
       "name": "sharmin-quote",
-      "src": "/images/femme/sharmin-quote.png"
+      "src": "/images/femme/sharmin-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/sharmin-interview-excerpt.pdf"
     },
     {
       "name": "shayna",
@@ -49,7 +55,9 @@
     },
     {
       "name": "shayna-quote",
-      "src": "/images/femme/shayna-quote.png"
+      "src": "/images/femme/shayna-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/shayna-interview-excerpt.pdf"
     },
     {
       "name": "alok",
@@ -57,7 +65,9 @@
     },
     {
       "name": "alok-quote",
-      "src": "/images/femme/alok-quote.png"
+      "src": "/images/femme/alok-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/alok-interview-excerpt.pdf"
     },
     {
       "name": "ivette",
@@ -65,7 +75,9 @@
     },
     {
       "name": "ivette-quote",
-      "src": "/images/femme/ivette-quote.png"
+      "src": "/images/femme/ivette-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/ivette-interview-excerpt.pdf"
     },
     {
       "name": "jamal",
@@ -73,7 +85,9 @@
     },
     {
       "name": "jamal-quote",
-      "src": "/images/femme/jamal-quote.png"
+      "src": "/images/femme/jamal-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/jamal-interview-excerpt.pdf"
     },
     {
       "name": "isake",
@@ -81,7 +95,9 @@
     },
     {
       "name": "isake-quote",
-      "src": "/images/femme/isake-quote.png"
+      "src": "/images/femme/isake-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/isake-interview-excerpt.pdf"
     },
     {
       "name": "raychelle",
@@ -89,7 +105,9 @@
     },
     {
       "name": "raychelle-quote",
-      "src": "/images/femme/raychelle-quote.png"
+      "src": "/images/femme/raychelle-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/raychelle-interview-excerpt.pdf"
     },
     {
       "name": "shawn",
@@ -97,7 +115,9 @@
     },
     {
       "name": "shawn-quote",
-      "src": "/images/femme/shawn-quote.png"
+      "src": "/images/femme/shawn-quote.png",
+      "linkTitle": "Full interview",
+      "link": "/femme-interviews/shawn-interview-excerpt.pdf"
     },
     {
       "name": "femme-selection",

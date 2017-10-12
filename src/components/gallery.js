@@ -8,10 +8,10 @@ import Image from './image'
 import BottomBar from './bottom-bar'
 import {ChevronLeft, ChevronRight, Note, X} from './icons'
 
-const STYLE = 'relative w-100 w-80-m w-50-l h-100 center tc'
+const STYLE = 'relative w-100 w-80-ns h-100 center tc'
 const LIST_STYLE = 'list w-100 h-100 pl0 mv0'
 const ITEM_STYLE_BASE = 'shiftable absolute w-100 h-100'
-const CONTROL_ICON_STYLE = `w-25 w-20-m h2 pv3 white`
+const CONTROL_ICON_STYLE = `w-25 w-20-m w-10-l h2 pv3 white`
 
 const NO_SHIFT = ''
 const SHIFT_RIGHT = 'shift-right'
@@ -22,8 +22,7 @@ Gallery.propTypes = {
   backUrl: PropTypes.string.isRequired,
   aboutUrl: PropTypes.string.isRequired,
   images: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    src: PropTypes.string.isRequired
+    name: PropTypes.string.isRequired
   })).isRequired,
   current: PropTypes.string
 }
@@ -60,17 +59,6 @@ export default function Gallery (props) {
   )
 }
 
-function GalleryImage (props) {
-  const {isCurrent, shift} = props
-  const style = classNames(ITEM_STYLE_BASE, shift, {'o-0': !isCurrent})
-
-  return (
-    <li className={style}>
-      <Image {...props} show={isCurrent || !!shift} />
-    </li>
-  )
-}
-
 function makeGalleryImages (images, currentName) {
   const lastIndex = images.length - 1
 
@@ -103,4 +91,18 @@ function makeGalleryImages (images, currentName) {
 
     return result
   }, {children: [], next: '', previous: ''})
+}
+
+function GalleryImage (props) {
+  const {isCurrent, shift} = props
+  const style = classNames(ITEM_STYLE_BASE, shift, {
+    dn: !(isCurrent || shift),
+    'o-0': !isCurrent
+  })
+
+  return (
+    <li className={style}>
+      <Image {...props} show={isCurrent || !!shift} />
+    </li>
+  )
 }
