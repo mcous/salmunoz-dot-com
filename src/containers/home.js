@@ -14,22 +14,24 @@ import About from '../components/about'
 import content from '../content.json'
 
 const {home: homeContent, pages: allPages} = content
-const {'pages-by-name': homePagesByName} = homeContent
-
+const {hrefRoot, 'pages-by-name': homePagesByName} = homeContent
 const pages = allPages
   .map((name) => content[name])
   .filter((p) => p && p.href !== '/')
 
-const projects = homeContent.pages.map((name) => homePagesByName[name])
+const projects = homeContent.pages.map((name) => ({
+  ...homePagesByName[name],
+  href: `${hrefRoot}/${name}`
+}))
 
 export default function Home (props) {
   return (
     <Main>
       <Hero title={content.title} subtitle={content.subtitle} />
       <BigNav pages={pages} />
-      <WorkList projects={projects} />
+      <WorkList hrefRoot={hrefRoot} projects={projects} />
       <Route
-        path={`${content.home.hrefRoot}/:page/:image?`}
+        path={`${hrefRoot}/:page/:image?`}
         component={ProjectModal}
       />
     </Main>
@@ -43,7 +45,7 @@ function ProjectModal (props) {
   const images = pageContent.gallery
 
   const backUrl = homeContent.href
-  const baseUrl = `${homeContent.hrefRoot}/${page}`
+  const baseUrl = `${hrefRoot}/${page}`
   const aboutUrl = !showAbout
     ? `${url}?about=true`
     : url
