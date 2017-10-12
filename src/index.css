@@ -2,6 +2,7 @@
 
 .z-back { z-index: -1; }
 
+.mxh-80 { max-height: 80%; }
 .mxh-100 { max-height: 100%; }
 
 .obj-contain { object-fit: contain; }
@@ -11,6 +12,11 @@
 
 .fcc { fill: currentColor; }
 
+.disabled {
+  cursor: default;
+  pointer-events: none;
+}
+
 .bg-grad-bottom-bar {
   background: linear-gradient(
     to bottom,
@@ -19,17 +25,22 @@
   );
 }
 
-.gallery-item {
+.shiftable {
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  transition: opacity 256ms, transform 256ms;
+  transform: translate(-50%, -50%);
+  transition: opacity 184ms, transform 184ms;
 }
 
-.gallery-item.shift-left {
-  transform: translate(-150%,-50%);
+.shiftable.shift-left {
+  transform: translate(-200%, -50%);
 }
 
-.gallery-item.shift-right {
-  transform: translate(50%,-50%);
+.shiftable.shift-right {
+  transform: translate(100%, -50%);
+}
+
+.shiftable.shift-down {
+  transform: translate(-50%, 150%);
 }

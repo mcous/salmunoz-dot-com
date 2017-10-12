@@ -1,44 +1,65 @@
 // home page container
 import React from 'react'
-import PropTypes from 'prop-types'
 import {Route} from 'react-router-dom'
 
-import ProjectModal from './project-modal'
 import Main from '../components/main'
 import Hero from '../components/hero'
 import BigNav from '../components/big-nav'
 import WorkList from '../components/work-list'
+import Gallery from '../components/gallery'
+import Modal from '../components/modal'
+import HoverBox from '../components/hover-box'
+import About from '../components/about'
 
-import homeContent from '../content/home'
+import content from '../content.json'
 
-const PROJECTS = homeContent.pages.map((name) => {
-  return require(`../content/home/pages-by-name/${name}.json`)
-})
+const {home: homeContent, pages: allPages} = content
+const {'pages-by-name': homePagesByName} = homeContent
 
-const TITLE = 'Sal Muñoz'
-const SUBTITLE = 'artist & community organizer'
-const PAGES = [
-  {href: '/news', title: 'News'},
-  {href: '/cv', title: 'Curriculum Vitae', shortTitle: 'C/V'},
-  {href: '/about', title: 'About'}
-]
+const pages = allPages
+  .map((name) => content[name])
+  .filter((p) => p && p.href !== '/')
+
+const projects = homeContent.pages.map((name) => homePagesByName[name])
 
 export default function Home (props) {
   return (
     <Main>
-      <Hero title={TITLE} subtitle={SUBTITLE} />
-      <BigNav pages={PAGES} />
-      <WorkList projects={PROJECTS} />
-
-      <Route path='/work/:page/:image?' component={ProjectModal} />
+      <Hero title={content.title} subtitle={content.subtitle} />
+      <BigNav pages={pages} />
+      <WorkList projects={projects} />
+      <Route
+        path={`${content.home.hrefRoot}/:page/:image?`}
+        component={ProjectModal}
+      />
     </Main>
   )
 }
 
-Home.propTypes = {
-  match: PropTypes.shape({
-    params: PropTypes.shape({
-      page: PropTypes.string
-    }).isRequired
-  }).isRequired
+function ProjectModal (props) {
+  const {location: {search}, match: {url, params: {page, image}}} = props
+  const showAbout = search.indexOf('about=true') > 0
+  const pageContent = homePagesByName[page]
+  const images = pageContent.gallery
+
+  const backUrl = homeContent.href
+  const baseUrl = `${homeContent.hrefRoot}/${page}`
+  const aboutUrl = !showAbout
+    ? `${url}?about=true`
+    : url
+
+  return (
+    <Modal back={backUrl}>
+      <Gallery
+        aboutUrl={aboutUrl}
+        baseUrl={baseUrl}
+        backUrl={backUrl}
+        images={images}
+        current={image}
+      />
+      <HoverBox show={showAbout}>
+        <About {...pageContent} />
+      </HoverBox>
+    </Modal>
+  )
 }

@@ -1,0 +1,17 @@
+{
+  "title": "Sal Muñoz",
+  "author": "Sal Muñoz",
+  "description": "Sal Muñoz's portfolio",
+  "subtitle": "artist & community organizer",
+  "hero": "/images/hero.png",
+  "footer": {
+    "left": "© 2012-2017 Sal Muñoz",
+    "right": "Built by <a href='http://mike.cousins.io' target='_blank' class='link blue dim'>Mike Cousins</a>"
+  },
+  "pages": [
+    "home",
+    "news",
+    "cv",
+    "about"
+  ]
+}

@@ -8,6 +8,7 @@ const {
   NamedModulesPlugin
 } = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+// const bundleContent = require('./scripts/bundle-content')
 
 const ENTRY = 'index.js'
 const OUTPUT = 'bundle.js'
@@ -15,11 +16,17 @@ const CSS_OUTPUT = 'bundle.css'
 
 const SRC_DIR = path.join(__dirname, 'src')
 const OUTPUT_DIR = path.join(__dirname, 'dist')
-const CONTENT_DIR = path.join(__dirname, 'public')
+const PUBLIC_DIR = path.join(__dirname, 'public')
 
 const DEV = process.env.NODE_ENV !== 'production'
 const DEV_HOST = '0.0.0.0'
 const DEV_PORT = 8080
+
+// const CONTENT_DIR = path.join(__dirname, 'src/content')
+// const CONTENT_GLOB = '**/*.json'
+// const CONTENT_OUT = path.join(__dirname, 'src/content.json')
+//
+// bundleContent(CONTENT_DIR, CONTENT_GLOB, CONTENT_OUT)
 
 const config = module.exports = {
   entry: [
@@ -58,7 +65,7 @@ const config = module.exports = {
   devServer: {
     host: DEV_HOST,
     port: DEV_PORT,
-    contentBase: CONTENT_DIR,
+    contentBase: PUBLIC_DIR,
     compress: true,
     historyApiFallback: true
   }

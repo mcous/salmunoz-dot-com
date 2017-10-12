@@ -2,8 +2,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import Heading from './heading'
+
 const STYLE = 'mb4'
-const TITLE_STYLE = 'mv3 tc f3 f2-ns lh-title normal'
+const TITLE_STYLE = 'mv3 tc'
 const SUBTITLE_STYLE = 'mv3 tc f5 lh-title'
 
 export default function Hero (props) {
@@ -11,7 +13,7 @@ export default function Hero (props) {
 
   return (
     <div className={STYLE}>
-      <h1 className={TITLE_STYLE}>{title}</h1>
+      <Heading level='1' style={TITLE_STYLE}>{title}</Heading>
       <p className={SUBTITLE_STYLE}>{subtitle}</p>
     </div>
   )
