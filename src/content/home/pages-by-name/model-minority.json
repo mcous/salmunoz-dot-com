@@ -1,0 +1,53 @@
+{
+  "name": "model-minority",
+  "title": "The Model Minority",
+  "stats": [
+    "2013"
+  ],
+  "thumbnail": "/images/model-minority/cookies-tn.jpg",
+  "description": [
+    "<strong>The Model Minority</strong> is an interactive installation from 2013. A large pile of fortune cookies sits against a wall on a table, which viewers are invited to take from and open. Inside of the fortune cookie, in place of a fortune, is a brief explanation of an aspect of the model minority. There are six different aspects of the model minority detailed in the cookies, and together they paint a picture of how problematic and damaging the model minority is. The fortune cookies represent a decidedly western interpretation and generalization of Asian culture, much like the myth of the model minority itself."
+  ],
+  "gallery": [
+    {
+      "name": "cookies",
+      "src": "/images/model-minority/cookies.jpg"
+    },
+    {
+      "name": "fortune-1",
+      "src": "/images/model-minority/fortune-1.jpg"
+    },
+    {
+      "name": "pile-1",
+      "src": "/images/model-minority/pile-1.jpg"
+    },
+    {
+      "name": "fortune-2",
+      "src": "/images/model-minority/fortune-2.jpg"
+    },
+    {
+      "name": "pile-2",
+      "src": "/images/model-minority/pile-2.jpg"
+    },
+    {
+      "name": "fortune-3",
+      "src": "/images/model-minority/fortune-3.jpg"
+    },
+    {
+      "name": "pile-3",
+      "src": "/images/model-minority/pile-3.jpg"
+    },
+    {
+      "name": "fortune-4",
+      "src": "/images/model-minority/fortune-4.jpg"
+    },
+    {
+      "name": "pile-4",
+      "src": "/images/model-minority/pile-4.jpg"
+    },
+    {
+      "name": "fortune-5",
+      "src": "/images/model-minority/fortune-5.jpg"
+    }
+  ]
+}

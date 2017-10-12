@@ -1,0 +1,17 @@
+{
+  "name": "gender-neutral-restroom",
+  "title": "Gender Neutral Restroom",
+  "stats": [
+    "2012"
+  ],
+  "thumbnail": "/images/gender-neutral-restroom/gender-neutral-restroom-tn.jpg",
+  "description": [
+    "<strong>Gender Neutral Restroom</strong> is a public installation from 2012. Posters are placed over men’s restrooms on the University of California, Santa Barbara campus, effectively declaring the space a gender-neutral restroom. This project is meant to call attention to the lack of gender-neutral restrooms on the UCSB campus, which is an issue that widely goes unnoticed in many public institutions. The project also humorously addresses the idea of gender-specific restrooms, while simultaneously discussing the lack of safety that many trans and gender non-conforming people feel in gender-specific restrooms. Unfortunately the posters were all removed (either by university officials or by students) within 24 hours of being put up."
+  ],
+  "gallery": [
+    {
+      "name": "poster",
+      "src": "/images/gender-neutral-restroom/gender-neutral-restroom.jpg"
+    }
+  ]
+}

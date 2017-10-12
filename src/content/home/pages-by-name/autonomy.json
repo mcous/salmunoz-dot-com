@@ -1,0 +1,62 @@
+{
+  "name": "autonomy",
+  "title": "Untitled (Contemplating Autonomy While Navigating Systems That Weren't Built to Accommodate My Existence)",
+  "stats": [
+    "2014"
+  ],
+  "thumbnail": "/images/autonomy/overview-tn.jpg",
+  "description": [
+    "<strong>Untitled (Contemplating Autonomy While Navigating Systems That Weren't Built to Accommodate My Existence)</strong> is an ongoing photographic installation from 2014. The piece documents spaces where the artist has experienced verbal street harassment in New York City. The intimate size of the photographs and the handwritten captions noting what was said convey the personal nature of these experiences, while the size of the overall installation and the repetition of the photographs denotes the pervasive and frequent nature of these incidents. This installation attempts to examine street harassment as public incidents that have serious personal and cultural ramifications, affecting how folks feel about safety and autonomy in spaces that out of necessity should be safe and accessible. How does street harassment affect our ability to be part of our community? How does it affect the way we navigate public spaces on a daily basis? Who is targeted by street harassment? Who perpetuates it?"
+  ],
+  "gallery": [
+    {
+      "name": "overview",
+      "src": "/images/autonomy/overview.jpg"
+    },
+    {
+      "name": "hate-crime",
+      "caption": "“You're a hate crime waiting to happen.”",
+      "src": "/images/autonomy/hate-crime.jpg"
+    },
+    {
+      "name": "come-here",
+      "caption": "“Come here.”\n“Why?”\n“I'm gonna fuck you, that's why.”",
+      "src": "/images/autonomy/come-here.jpg"
+    },
+    {
+      "name": "sour-butt",
+      "caption": "“Wassup Sexy? You got a sour butt!”",
+      "src": "/images/autonomy/sour-butt.jpg"
+    },
+    {
+      "name": "sexy-as-fuck",
+      "caption": "“Damn! You are sexy as fuck!”",
+      "src": "/images/autonomy/sexy-as-fuck.jpg"
+    },
+    {
+      "name": "face",
+      "caption": "“I'm gonna smash your face in you faggot!”",
+      "src": "/images/autonomy/face.jpg"
+    },
+    {
+      "name": "act-like-one",
+      "caption": "“You're a man — act like one.”",
+      "src": "/images/autonomy/act-like-one.jpg"
+    },
+    {
+      "name": "change-your-world",
+      "caption": "“Wassup Sexy? My dick will change your world.”",
+      "src": "/images/autonomy/change-your-world.jpg"
+    },
+    {
+      "name": "god",
+      "caption": "“God don't like Soddom & Gomorrah/”",
+      "src": "/images/autonomy/god.jpg"
+    },
+    {
+      "name": "sound-like-a-man",
+      "caption": "“Grab your nuts when you talk so you'll sound like a Man.”",
+      "src": "/images/autonomy/sound-like-a-man.jpg"
+    }
+  ]
+}

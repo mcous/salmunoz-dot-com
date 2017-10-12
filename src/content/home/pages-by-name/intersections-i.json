@@ -1,0 +1,53 @@
+{
+  "name": "intersections-i",
+  "title": "Intersections I",
+  "stats": [
+    "2013"
+  ],
+  "thumbnail": "/images/intersections-i/installation-tn.jpg",
+  "description": [
+    "<strong>Intersections I</strong> is a print based installation from 2013. Brightly colored, digitally rendered prints of skulls are arranged in a rainbow pattern and cover an entire wall. The bright colors and decorative adornments reference <em>calaveras</em>, brightly colored Mexican sugar skulls made during <em>Dia de los Muertos</em> to honor the deceased. The arrangement of the prints in a rainbow color scheme connotes queer culture. The title alludes to the concept of intersectionality, where an individual belongs to multiple marginalized groups, and how these multiple identities interact in various concurrent systems of oppression. This piece also serves to call attention to how queer people of color are often rendered invisible and ignored by mainstream gay culture."
+  ],
+  "gallery": [
+    {
+      "name": "installation",
+      "src": "/images/intersections-i/installation.jpg"
+    },
+    {
+      "name": "red",
+      "src": "/images/intersections-i/red.png"
+    },
+    {
+      "name": "orange",
+      "src": "/images/intersections-i/orange.png"
+    },
+    {
+      "name": "closeup",
+      "src": "/images/intersections-i/closeup.jpg"
+    },
+    {
+      "name": "yellow",
+      "src": "/images/intersections-i/yellow.png"
+    },
+    {
+      "name": "green",
+      "src": "/images/intersections-i/green.png"
+    },
+    {
+      "name": "cropped",
+      "src": "/images/intersections-i/cropped.jpg"
+    },
+    {
+      "name": "blue",
+      "src": "/images/intersections-i/blue.png"
+    },
+    {
+      "name": "purple",
+      "src": "/images/intersections-i/purple.png"
+    },
+    {
+      "name": "print",
+      "src": "/images/intersections-i/print.png"
+    }
+  ]
+}

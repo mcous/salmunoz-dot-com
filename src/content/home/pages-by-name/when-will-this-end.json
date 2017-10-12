@@ -1,0 +1,49 @@
+{
+  "name": "when-will-this-end",
+  "title": "When Will This End?",
+  "stats": [
+    "2013"
+  ],
+  "thumbnail": "/images/when-will-this-end/display-tn.jpg",
+  "description": [
+    "<strong>When Will This End</strong> is a zine from 2013. The eightfold zine details bias motivated crimes committed against LGBT perceived or identified folks in the New York City area in 2013, as reported by the New York City Anti-Violence Project. When the zine is unfolded, it reveals a stylized version of the New York City subway map, with red dots marking the locations where the crimes had taken place. overlain on the map is the phrase “When Will This End?”. The zine and map were made in response to an increase in anti-LGBT violence in NYC in the New Year, and by the time the zine debuted in July, it was already outdated."
+  ],
+  "gallery": [
+    {
+      "name": "display",
+      "src": "/images/when-will-this-end/display.jpg"
+    },
+    {
+      "name": "posters",
+      "src": "/images/when-will-this-end/posters.jpg"
+    },
+    {
+      "name": "poster-unfolded",
+      "src": "/images/when-will-this-end/poster-unfolded.jpg"
+    },
+    {
+      "name": "poster-flat",
+      "src": "/images/when-will-this-end/poster-flat.jpg"
+    },
+    {
+      "name": "lines-1",
+      "src": "/images/when-will-this-end/lines-1.jpg"
+    },
+    {
+      "name": "lines-2",
+      "src": "/images/when-will-this-end/lines-2.jpg"
+    },
+    {
+      "name": "zine",
+      "src": "/images/when-will-this-end/zine.jpg"
+    },
+    {
+      "name": "poster",
+      "src": "/images/when-will-this-end/poster.png"
+    },
+    {
+      "name": "timeline",
+      "src": "/images/when-will-this-end/timeline.png"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "joteria",
+  "title": "La Joteria",
+  "stats": [
+    "2015"
+  ],
+  "thumbnail": "/images/joteria/luchadors-tn.jpg",
+  "description": [
+    "La Joteria is a Photographic Installation from 2015. Objects closely related with Mexican culture are depicted with elements of queer culture infused in them. This piece aims to celebrate and embrace the intersections of my queer and Mexican identities, to find the beauty in its complexity. It also serves to call attention to how queer people of color are often rendered invisible and ignored by mainstream gay culture."
+  ],
+  "gallery": [
+    {
+      "name": "joteria-1",
+      "src": "/images/joteria/joteria-1.jpg"
+    },
+    {
+      "name": "joteria-2",
+      "src": "/images/joteria/joteria-2.jpg"
+    },
+    {
+      "name": "joteria-3",
+      "src": "/images/joteria/joteria-3.jpg"
+    },
+    {
+      "name": "joteria-4",
+      "src": "/images/joteria/joteria-4.jpg"
+    },
+    {
+      "name": "luchadors",
+      "caption": "La Joteria (Luchadors)",
+      "src": "/images/joteria/luchadors.jpg",
+      "thumb": "/images/joteria/luchadors-tn.jpg"
+    },
+    {
+      "name": "altar",
+      "caption": "La Joteria (Altar)",
+      "src": "/images/joteria/altar.jpg"
+    },
+    {
+      "name": "tortillas",
+      "caption": "La Joteria (Tortillas)",
+      "src": "/images/joteria/tortillas.jpg"
+    },
+    {
+      "name": "milagros",
+      "caption": "La Joteria (Milagros)",
+      "src": "/images/joteria/milagros.jpg"
+    },
+    {
+      "name": "pan-dulce",
+      "caption": "La Joteria (Pan Dulce)",
+      "src": "/images/joteria/pan-dulce.jpg"
+    },
+    {
+      "name": "los-jarritos",
+      "caption": "La Joteria (Los Jarritos)",
+      "src": "/images/joteria/los-jarritos.jpg"
+    },
+    {
+      "name": "papel-picado",
+      "caption": "La Joteria (Papel Picado)",
+      "src": "/images/joteria/papel-picado.jpg"
+    }
+  ]
+}

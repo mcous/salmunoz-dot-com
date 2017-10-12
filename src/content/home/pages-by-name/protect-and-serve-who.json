@@ -1,0 +1,33 @@
+{
+  "name": "protect-and-serve-who",
+  "title": "Protect and Serve Who?",
+  "stats": [
+    "2015"
+  ],
+  "thumbnail": "/images/protect-and-serve-who/protect-and-serve-3-tn.jpg",
+  "description": [
+    "<strong>Protect and Serve Who?</strong> is a mixed media piece from 2015. Handcuffs are used to spell out the phrase “protect and serve who?”. This piece was created in response to the increase in public consciousness and acknowledgment of police brutality and killings targeting people of color, particularly black folks. Who do police forces protect? Who gets to feel safe and secure in their presence? Who feels threatened and endangered by them? What are the alternatives to policing?"
+  ],
+  "gallery": [
+    {
+      "name": "protect-and-serve-1",
+      "src": "/images/protect-and-serve-who/protect-and-serve-1.jpg"
+    },
+    {
+      "name": "protect-and-serve-2",
+      "src": "/images/protect-and-serve-who/protect-and-serve-2.jpg"
+    },
+    {
+      "name": "protect-and-serve-3",
+      "src": "/images/protect-and-serve-who/protect-and-serve-3.jpg"
+    },
+    {
+      "name": "protect-and-serve-4",
+      "src": "/images/protect-and-serve-who/protect-and-serve-4.jpg"
+    },
+    {
+      "name": "protect-and-serve-5",
+      "src": "/images/protect-and-serve-who/protect-and-serve-5.jpg"
+    }
+  ]
+}
