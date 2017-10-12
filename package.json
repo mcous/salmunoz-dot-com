@@ -1,6 +1,6 @@
 {
   "name": "salmunoz-dot-com",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Artist Sal Muñoz's portfolio site",
   "main": "src/index.js",
   "scripts": {
