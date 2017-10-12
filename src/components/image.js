@@ -9,7 +9,7 @@ import {LinkExternal} from './icons'
 
 const STYLE = 'relative w-100 h-100'
 const BASE_STYLE = 'absolute absolute--center mxh-100 obj-contain'
-const EXTERNAL_LINK_STYLE = 'db absolute na2 pa3 w3 h3 white'
+const EXTERNAL_LINK_STYLE = 'db absolute na2 pa3 w3 h3 white-70'
 const EXTERNAL_LINK_ICON_STYLE = 'w-100 h-100'
 
 const isLoadedBySrc = {}
@@ -63,6 +63,10 @@ const Image = createReactClass({
 
   componentDidUpdate () {
     this.handleExternalLinkPosition()
+  },
+
+  componentWillUnmount () {
+    this.unlistenToResize()
   },
 
   render () {

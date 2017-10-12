@@ -15,8 +15,7 @@ const OUTPUT = 'bundle.js'
 const CSS_OUTPUT = 'bundle.css'
 
 const SRC_DIR = path.join(__dirname, 'src')
-const OUTPUT_DIR = path.join(__dirname, 'dist')
-const PUBLIC_DIR = path.join(__dirname, 'public')
+const OUTPUT_DIR = path.join(__dirname, 'public')
 
 const DEV = process.env.NODE_ENV !== 'production'
 const DEV_HOST = '0.0.0.0'
@@ -65,7 +64,7 @@ const config = module.exports = {
   devServer: {
     host: DEV_HOST,
     port: DEV_PORT,
-    contentBase: PUBLIC_DIR,
+    contentBase: OUTPUT_DIR,
     compress: true,
     historyApiFallback: true
   }

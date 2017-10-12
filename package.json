@@ -7,7 +7,10 @@
     "test": "jest",
     "posttest": "npm run lint",
     "lint": "standard",
+    "content": "./scripts/bundle-content.js ./src/content '**/*.json' ./src/content.json",
+    "prestart": "npm run content",
     "start": "cross-env NODE_ENV=dev webpack-dev-server --hot",
+    "predist": "npm run content",
     "dist": "cross-env NODE_ENV=production webpack -p"
   },
   "repository": {

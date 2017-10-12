@@ -2,7 +2,6 @@
   "env": {
     "production": {
       "presets": [
-        "react-optimize",
         "minify"
       ]
     },
