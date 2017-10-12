@@ -25,22 +25,18 @@
   );
 }
 
+.absolute--center,
 .shiftable {
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.shiftable {
+  position: absolute;
   transition: opacity 184ms, transform 184ms;
 }
 
-.shiftable.shift-left {
-  transform: translate(-200%, -50%);
-}
-
-.shiftable.shift-right {
-  transform: translate(100%, -50%);
-}
-
-.shiftable.shift-down {
-  transform: translate(-50%, 150%);
-}
+.shiftable.shift-left { transform: translate(-200%, -50%); }
+.shiftable.shift-right { transform: translate(100%, -50%); }
+.shiftable.shift-down { transform: translate(-50%, 150%); }
