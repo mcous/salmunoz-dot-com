@@ -23,7 +23,9 @@ Gallery.propTypes = {
   aboutUrl: PropTypes.string.isRequired,
   images: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
-    src: PropTypes.string.isRequired
+    src: PropTypes.string.isRequired,
+    linkTitle: PropTypes.string,
+    link: PropTypes.string
   })).isRequired,
   current: PropTypes.string
 }
