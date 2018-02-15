@@ -1,15 +1,20 @@
 // root container
 import React from 'react'
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import {Redirect, BrowserRouter, Switch, Route} from 'react-router-dom'
 
 import content from '../content.json'
-import Home from './home'
+import Projects from './projects'
+import About from './about'
 
 export default function Root () {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path={content.home.href} component={Home} />
+        <Route path='/' exact render={() => (
+          <Redirect to={content.defaultPage} />)
+        } />
+        <Route path={content.projects.href} component={Projects} />
+        <Route path={content.about.href} component={About} />
       </Switch>
     </BrowserRouter>
   )

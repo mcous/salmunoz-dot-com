@@ -1,7 +1,6 @@
 {
-  "title": "Home",
-  "href": "/",
-  "hrefRoot": "/work",
+  "title": "Projects",
+  "href": "/projects",
   "pages": [
     "femme",
     "protect-and-serve-who",
