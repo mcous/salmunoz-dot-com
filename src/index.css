@@ -40,3 +40,16 @@
 .shiftable.shift-left { transform: translate(-200%, -50%); }
 .shiftable.shift-right { transform: translate(100%, -50%); }
 .shiftable.shift-down { transform: translate(-50%, 150%); }
+
+@media screen and (min-width: 64em)  {
+  .hide-child .child-l {
+    opacity: 0;
+    transition: opacity .15s ease-in;
+  }
+  .hide-child:hover  .child-l,
+  .hide-child:focus  .child-l,
+  .hide-child:active .child-l {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+  }
+}

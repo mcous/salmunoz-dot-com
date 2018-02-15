@@ -7,10 +7,10 @@ import rafDebounce from '@f/raf-debounce'
 
 import {LinkExternal} from './icons'
 
-const STYLE = 'relative w-100 h-100'
+const STYLE = 'relative w-100 h-100 hide-child'
 const BASE_STYLE = 'absolute absolute--center mxh-100 obj-contain'
 const EXTERNAL_LINK_STYLE = 'db absolute na2 pa3 w3 h3 white-70'
-const EXTERNAL_LINK_ICON_STYLE = 'w-100 h-100'
+const EXTERNAL_LINK_ICON_STYLE = 'w-100 h-100 child-l'
 
 const isLoadedBySrc = {}
 

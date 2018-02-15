@@ -3,8 +3,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const STYLE = 'w-100 aspect-ratio aspect-ratio--1x1'
-const CONTAINER_STYLE = 'dt h-100 link bg-center cover aspect-ratio--object'
-const TEXT_STYLE = 'dtc pa3 f4 f5-ns b tracked lh-title v-mid tc white bg-black-20'
+const CONTAINER_STYLE = 'dt h-100 link bg-center cover aspect-ratio--object hide-child'
+const TEXT_STYLE = 'dtc pa3 f4 f5-ns b tracked lh-title v-mid tc white bg-black-20 child-l'
 
 export default function Thumbnail (props) {
   const backgroundStyle = {backgroundImage: `url(${props.src})`}
